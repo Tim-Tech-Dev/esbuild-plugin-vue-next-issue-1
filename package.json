@@ -1,0 +1,29 @@
+{
+	"name": "esbuild-plugin-vue-next-issue-1",
+	"version": "0.1.0",
+	"description": "Wrong commonjs types #3",
+	"main": "dist/index.js",
+	"scripts": {
+		"check": "tsc -b",
+		"build_a": "node build_a.js",
+		"build_b": " node build_b.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Tim-Tech-Dev/esbuild-plugin-vue-next-issue-1.git"
+	},
+	"author": "Tim-Tech-Dev",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Tim-Tech-Dev/esbuild-plugin-vue-next-issue-1/issues"
+	},
+	"homepage": "https://github.com/Tim-Tech-Dev/esbuild-plugin-vue-next-issue-1#readme",
+	"dependencies": {
+		"esbuild": "^0.14.21",
+		"esbuild-plugin-vue-next": "^0.1.4",
+		"typescript": "^4.5.5"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.17"
+	}
+}
